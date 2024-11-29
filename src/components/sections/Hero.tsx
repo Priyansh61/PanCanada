@@ -8,10 +8,10 @@ const HeroSection = () => {
       <div className="flex flex-col items-center lg:flex-row lg:justify-between">
         <div className="hero-content max-w-2xl text-center lg:text-left">
           <h1 className="mb-6 text-4xl font-bold tracking-tight text-[#1A1A3A] sm:text-5xl md:text-6xl">
-            Your full-funnel growth agency
+          The Brassfield Turner Group provides a wide range of services
           </h1>
           <p className="mb-8 text-lg text-gray-600 sm:text-xl">
-            Capture and retrieve your lists across devices to help you stay organized at work, home, and on the go.
+          Our expertise has been founded on our talents, values, ability to innovate, and passion.
           </p>
           <Button 
             size="lg" 

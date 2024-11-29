@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { useState } from "react";
 import { X, Menu } from "lucide-react"; // Ensure lucide-react is installed
-import {Button}  from "@/components/ui/button"; // Update path if needed
+import { Button } from "@/components/ui/button";
 import GetQuoteModal from "../modals/GetQuote";
+
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,11 +19,14 @@ const Header: React.FC = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
-              <span className="text-2xl font-bold text-sky-500">SocialiSthan</span>
+              <img
+                src="/images/pancard1 (1).png"
+                alt="Pan Canada Logo"
+                className="h-32 w-auto"
+              />
             </Link>
           </div>
 
@@ -82,7 +86,7 @@ const Header: React.FC = () => {
       {isMenuOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <button
+            <button
               onClick={() => scrollToSection("home")}
               className="text-gray-600 hover:text-sky-500 block px-3 py-2 rounded-md text-base font-medium"
             >
@@ -109,7 +113,7 @@ const Header: React.FC = () => {
           </div>
           <div className="pt-4 pb-3 border-t border-gray-200">
             <div className="px-2">
-              <Button size="sm" className="w-full bg-sky-500 hover:bg-sky-600">
+              <Button size="sm" className="w-full bg-[#FF6B6B] hover:bg-[#FF6B6B]">
                 Get a Quote
               </Button>
             </div>
