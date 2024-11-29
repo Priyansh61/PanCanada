@@ -1,4 +1,10 @@
 import Link from "next/link";
+const scrollToSection = (id: string) => {
+  const section = document.getElementById(id);
+  if (section) {
+    section.scrollIntoView({ behavior: "smooth" });
+  }
+};
 export default function Footer() {
   return (
     <footer className="bg-[#FDF8F6] text-black py-16">
@@ -26,10 +32,10 @@ export default function Footer() {
           <div>
             <h5 className="text-lg font-semibold mt-6 mb-5 mx-28">COMPANY</h5>
             <ul className="space-y-4 mx-28">
-              <li><Link href="/home" className="hover:text-sky-400">Home</Link></li>
-              <li><Link href="/about" className="hover:text-sky-400">About </Link></li>
-              <li><Link href="/services" className="hover:text-sky-400">Services</Link></li>
-              <li><Link href="/contact" className="hover:text-sky-400">Contact</Link></li>
+              <li><Link href="/" className="hover:text-sky-400"   onClick={() => scrollToSection("home")}>Home</Link></li>
+              <li><Link href="/about" className="hover:text-sky-400"   onClick={() => scrollToSection("about")}>About </Link></li>
+              <li><Link href="/services" className="hover:text-sky-400"  onClick={() => scrollToSection("services")}>Services</Link></li>
+              <li><Link href="/contact" className="hover:text-sky-400"  onClick={() => scrollToSection("contact")}>Contact</Link></li>
             </ul>
           </div>
 
