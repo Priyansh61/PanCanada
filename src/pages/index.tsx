@@ -5,10 +5,11 @@ import Services  from '@/components/sections/Services'
 // import Projects  from '@/components/sections/Projects'
 import  About from '@/components/sections/About'
 // import  Blog from '@/components/sections/Blog'
-// import  Contact from '@/components/sections/Contact'
+import  Contact from '@/components/sections/Contact'
 import Testimonials from '@/components/sections/Testemonial'
 import GetInTouch from '@/components/sections/GetInTouch'
 import Work from '@/components/sections/Work'
+import StatsSection from '@/components/sections/Stats';
 
 export default function Home() {
   return (
@@ -38,13 +39,14 @@ export default function Home() {
     <Layout>
       <Hero />
       <Services />
+      <StatsSection />
        <About />
       <Work />
        <Testimonials />
       {/* <GetInTouch /> */} */}
       {/* <Blog /> */}
 
-      {/* <Contact /> */}
+      <Contact />
     </Layout>
     </>
   )
