@@ -32,7 +32,7 @@ export default function GetQuoteModal() {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button className='bg-sky-500  hover:bg-sky-600  rounded-lg'>Get Quote</Button>
+        <Button className='bg-[#FF6B6B]  hover:bg-red-500  rounded-lg'>Get Quote</Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
