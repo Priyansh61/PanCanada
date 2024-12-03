@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { useState } from "react";
-import { X, Menu } from "lucide-react";
+import { X, Menu } from "lucide-react"; // Ensure lucide-react is installed
 import { Button } from "@/components/ui/button";
 import GetQuoteModal from "../modals/GetQuote";
+
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -112,14 +113,7 @@ const Header: React.FC = () => {
           </div>
           <div className="pt-4 pb-3 border-t border-gray-200">
             <div className="px-2">
-              <Button
-                size="sm"
-                className="w-full py-2 px-4 rounded-lg shadow-lg"
-                style={{
-                  background: "linear-gradient(to right, #FF6B6B, #FF8E8E)", // Gradient for button
-                  color: "white",
-                }}
-              >
+              <Button size="sm" className="w-full bg-[#FF6B6B] hover:bg-[#FF6B6B]">
                 Get a Quote
               </Button>
             </div>
