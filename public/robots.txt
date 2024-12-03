@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://socialisthan.com
+Host: https://pancanada.com
 
 # Sitemaps
-Sitemap: https://socialisthan.com/sitemap.xml
+Sitemap: https://pancanada.com/sitemap.xml

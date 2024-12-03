@@ -48,7 +48,10 @@ export default function Services() {
   };
 
   return (
-    <section className="py-20 bg-[#FF6B6B]" id="services">
+    <section className="py-20 " id="services" style={{
+      background: "linear-gradient(to top, #ff6b6b 0%, #ff3366 100%)"
+    }}
+    >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-3xl font-bold text-white sm:text-4xl">Our Services</h2>

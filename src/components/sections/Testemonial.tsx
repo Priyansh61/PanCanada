@@ -146,7 +146,10 @@
 // }
 export default function CallToAction() {
   return (
-    <section className="bg-[#FF6B6B] text-white py-16"  id="contact">
+    <section className=" text-white py-16"  id="contact"
+    style={{
+      background: "linear-gradient(to top, #ff6b6b 0%, #ff3366 100%)"
+    }}>
       <div className="container mx-auto px-6 sm:px-8 lg:px-12 flex flex-col md:flex-row items-center justify-between">
         {/* Left Content */}
         <div className="md:w-3/4">
