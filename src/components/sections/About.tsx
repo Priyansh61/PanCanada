@@ -7,7 +7,7 @@ export default function About() {
       className="py-20"
       id="about"
       style={{
-        background: "linear-gradient(to bottom, #FF6B6B, #FF8E8E)", // Gradient background
+        background: "linear-gradient(to bottom, #FF6B6B, #FF8E8E)", 
       }}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -17,8 +17,8 @@ export default function About() {
             <Image
               src="/images/about-banner.png"
               alt="Growth Analytics Illustration"
-              width={300} // Reduced size
-              height={240} // Reduced size
+              width={300} 
+              height={240} 
               className="h-auto w-full rounded-lg shadow-lg hover:shadow-2xl transition duration-300"
               priority
             />

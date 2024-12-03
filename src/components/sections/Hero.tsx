@@ -5,9 +5,9 @@ const HeroSection = () => {
   return (
     <section className="relative overflow-hidden py-20" id="home">
       {/* Background Image */}
-      <div className="absolute inset-0 z-0 left-96 ml-[425px]   mt-4 mb-4 ">
+      <div className="absolute inset-0 z-0 left-96 ml-[425px] mt-4 mb-4 hidden lg:block">
         <Image
-          src="/images/bg.png" 
+          src="/images/bg.png"
           alt="Background"
           layout="fill"
           objectFit="contain"
@@ -15,7 +15,6 @@ const HeroSection = () => {
           priority
         />
       </div>
-
       {/* Content Section */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="flex flex-col items-center lg:flex-row lg:justify-between">
@@ -34,7 +33,7 @@ const HeroSection = () => {
               Get started
             </Button>
           </div>
-          <div className="hero-banner mt-10 w-full max-w-2xl  mr-6 lg:mt-0">
+          <div className="hero-banner mt-10 w-full max-w-2xl mr-6 lg:mt-0">
             <Image
               src="/images/hero-banner.png"
               alt="Hero banner"
