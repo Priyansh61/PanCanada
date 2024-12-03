@@ -1,5 +1,5 @@
 module.exports = {
-    siteUrl: 'https://socialisthan.com',
+    siteUrl: 'https://pancanada.com',
     generateRobotsTxt: true, // Optionally generate robots.txt
   };
   

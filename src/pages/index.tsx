@@ -15,19 +15,19 @@ export default function Home() {
   return (
     <>
     <Head>
-    <title>Socialisthan - Empowering Digital Strategies</title>
+    <title>panCanada - Defining Tomorrow</title>
     <link rel="icon" href="/icon.ico" />
     <meta
       name="description"
-      content="Socialisthan provides cutting-edge digital marketing strategies to elevate your brand."
+      content="PanCanada provides cutting-edge digital marketing strategies to elevate your brand."
     />
     <meta
       name="keywords"
       content="digital marketing, social media marketing, SEO, branding, social media management, video production, graphic design"
     />
-    <meta name="author" content="Socialisthan Team" />
+    <meta name="author" content="PanCanada Team" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:title" content="Socialisthan - Empowering Digital Strategies" />
+    <meta property="og:title" content="PanCanada - Empowering Digital Strategies" />
     <meta
       property="og:description"
       content="Innovative digital marketing strategies to help your brand thrive."
