@@ -7,7 +7,7 @@ const scrollToSection = (id: string) => {
 };
 export default function Footer() {
   return (
-    <footer className="bg-[#FDF8F6] text-black py-16">
+    <footer className="bg-[#fff8f4] text-[#22224d] py-16">
       <div className="container mx-auto px-6 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
           {/* Footer Brand */}
@@ -30,7 +30,7 @@ export default function Footer() {
 
           {/* Company Links */}
           <div>
-            <h5 className="text-lg font-semibold mt-6 mb-5 mx-28">COMPANY</h5>
+            <h5 className="text-lg font-bold mt-6 mb-5 mx-28">COMPANY</h5>
             <ul className="space-y-4 mx-28">
               <li><Link href="/" className="hover:text-sky-400"   onClick={() => scrollToSection("home")}>Home</Link></li>
               <li><Link href="/about" className="hover:text-sky-400"   onClick={() => scrollToSection("about")}>About </Link></li>
@@ -41,7 +41,7 @@ export default function Footer() {
 
           {/* Contact Us */}
           <div>
-            <h5 className="text-lg font-semibold mt-5  mb-5">CONTACT US</h5>
+            <h5 className="text-lg font-bold mt-5  mb-5">CONTACT US</h5>
             <ul className="space-y-3">
               <li>
                 <p className="font-medium">Address:</p>

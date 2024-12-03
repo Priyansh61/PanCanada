@@ -4,21 +4,22 @@ import { Button } from "../ui/button";
 const HeroSection = () => {
   return (
     <section
-      className="relative overflow-hidden py-20  bg-cover bg-center"
+      className="relative overflow-hidden py-[10rem] min-h-64 flex  bg-no-repeat bg-left"
       id="home"
       style={{
         backgroundImage: "url('/images/bg.png')",
+        backgroundSize: "750px",
+        backgroundPosition: "100% 1%",
       }}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="container mx-auto   max-w-7xl relative z-10">
         <div className="flex flex-col items-center lg:flex-row lg:justify-between">
           <div className="hero-content max-w-2xl text-center lg:text-left">
-            <h1 className="mb-6 text-4xl font-bold tracking-tight text-[#1A1A3A] sm:text-5xl md:text-5xl">
-              The Brassfield Turner Group provides a wide range of services
+          <h1 className="mb-6 font-bold tracking-tight text-[#1A1A3A] text-[50px] font-sans">
+          Empowering Industries, Elevating Standards
             </h1>
             <p className="mb-8 text-lg text-gray-600 sm:text-xl">
-              Our expertise has been founded on our talents, values, ability to
-              innovate, and passion.
+              Innovating Solutions, Transforming Tomorrow
             </p>
             <Button
               size="lg"
@@ -31,9 +32,9 @@ const HeroSection = () => {
             <Image
               src="/images/hero-banner.png"
               alt="Hero banner"
-              width={500} // Moderate width
-              height={350} // Moderate height
-              className="h-auto w-full"
+              width={300} // Reduced size
+              height={200} // Reduced size
+              className="hidden md:block h-auto w-auto mx-auto" // Hidden on mobile
               priority
             />
           </div>

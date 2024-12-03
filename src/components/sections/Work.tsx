@@ -38,14 +38,10 @@ export default function Work() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-16 text-center">
           <h2 className="mb-6 text-3xl font-bold text-[#1A1A3A] sm:text-4xl lg:text-5xl">
-            We are a community of top professionals who are committed to
-            exceeding expectations via excellence
+          Our Expertise, Your Advantage
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-gray-600">
-            With over 25 years of combined industry experience, our team is
-            ready to assist you in completing your project and receiving the
-            results you desire. We take pride in the quality of our equipment
-            and the level of service we provide.
+          Discover the range of services PanCanada offers to help businesses thrive. 
           </p>
         </div>
 

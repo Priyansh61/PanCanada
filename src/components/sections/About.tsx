@@ -16,7 +16,7 @@ export default function About() {
               alt="Growth Analytics Illustration"
               width={300} // Reduced width
               height={240} // Reduced height proportionally
-              className="h-auto w-full"
+              className="md:block h-auto w-auto mx-auto"
               priority
             />
           </div>
@@ -24,14 +24,12 @@ export default function About() {
           <div className="w-full lg:w-1/2">
             <div className="max-w-xl">
               <h2 className="mb-6 text-4xl font-bold text-white sm:text-5xl lg:text-5xl">
-                Our Specialisation and Company Characteristics
+              "Shaping Industries, Inspiring Excellence"
               </h2>
               <p className="mb-8 text-lg text-white/90 lg:text-1xl">
-                Our company matches companies/employers with skilled applicants
-                who fit their standards. We offer staffing solutions for local,
-                national, and global demands. Our mission is to help job
-                searchers find new opportunities while also supporting employers
-                in selecting the ideal candidate for open positions.
+              At PanCanada, we believe in transforming industries with innovative solutions and unwavering commitment. With decades of expertise in construction, hospitality, and engineering, we empower businesses to excel in a rapidly changing world.
+
+Our mission is to drive progress by delivering tailored services that prioritize efficiency, sustainability, and growth. By blending industry expertise with cutting-edge technology, we solve complex challenges, ensuring our clients remain at the forefront of their respective sectors.
               </p>
               <Button
                 size="lg"
