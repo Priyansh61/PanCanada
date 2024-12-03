@@ -7,7 +7,7 @@ const scrollToSection = (id: string) => {
 };
 export default function Footer() {
   return (
-    <footer className="bg-[#FDF8F6] text-black py-16">
+    <footer className="bg-[#f3c7c7] text-black py-16">
       <div className="container mx-auto px-6 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
           {/* Footer Brand */}
